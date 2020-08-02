@@ -1,7 +1,14 @@
-import { logOutMyName } from './test1.js';
-import { myDate } from './test2.js';
+import { logOutMyName } from './logOutMyName.js';
+import { todaysDate } from './todaysDate.js';
+import { createTableHeader } from './createTableHeader.js';
+import { createTableBody } from './createTableBody.js';
+import { logOutMyData } from './logOutMyData.js';
+
 
 
 
 logOutMyName();
-myDate();
+todaysDate();
+createTableHeader();
+createTableBody();
+logOutMyData();
